@@ -21,7 +21,7 @@ This is where you can select years for prediction, change the historical data wi
 
 ### The graph
 <img width="962" alt="Screenshot 2022-07-03 at 8 11 28 PM" src="https://user-images.githubusercontent.com/92823408/177051635-eb94ef27-81f6-4e7a-a05b-e0cc31fdcd6e.png">
-The main graph where you can view the plotted value of the prediction 
+The main graph where you can view the plotted value of the prediction. Black dots are the actual number of passengers during the particular time frame and blue line is the predicted value of passengers
 
 ### Forecasting attributes 
 <img width="786" alt="Screenshot 2022-07-03 at 8 11 36 PM" src="https://user-images.githubusercontent.com/92823408/177051675-5546adf3-3a24-499d-8a37-3aa607988739.png">
