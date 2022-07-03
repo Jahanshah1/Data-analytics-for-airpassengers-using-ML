@@ -14,3 +14,15 @@ https://user-images.githubusercontent.com/92823408/177051509-2ef32652-9da9-4d9c-
 
 The video displaying the web app with the model 
 
+
+### Main page
+<img width="1440" alt="Screenshot 2022-07-03 at 8 11 18 PM" src="https://user-images.githubusercontent.com/92823408/177051589-f1112210-839f-40f5-96a4-4906e0926aca.png">
+This is where you can select years for prediction, change the historical data with your `.csv` file for prediction and view the raw data 
+
+### The graph
+<img width="962" alt="Screenshot 2022-07-03 at 8 11 28 PM" src="https://user-images.githubusercontent.com/92823408/177051635-eb94ef27-81f6-4e7a-a05b-e0cc31fdcd6e.png">
+The main graph where you can view the plotted value of the prediction 
+
+### Forecasting attributes 
+<img width="786" alt="Screenshot 2022-07-03 at 8 11 36 PM" src="https://user-images.githubusercontent.com/92823408/177051675-5546adf3-3a24-499d-8a37-3aa607988739.png">
+some more components to help users understant the trend better 
