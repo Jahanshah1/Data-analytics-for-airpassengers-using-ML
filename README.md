@@ -39,4 +39,19 @@ To test the model locally :
 1. download this github repo
 2. install all the dependencies from `requirements.txt`
 3. run `model.py`
-4. In terminal run `streamlit run model.py`
+4. run `streamlit run model.py` in terminal 
+
+## Changing historical data for prediction 
+NOTE: The `.csv` should have two columns, 1 with the name `Month` ( which has all the dates ) and 2 with the name `#Passengers` ( which has all the number of passengers )
+
+### Method 1
+You can directly change the `.csv` from here 
+<img width="331" alt="Screenshot 2022-07-03 at 8 11 43 PM" src="https://user-images.githubusercontent.com/92823408/177052092-9263f5a2-09c4-46bc-841d-3d2448d4e18e.png">
+
+### Method 2
+- download the file from github 
+- change `AirPassengers.csv` with your `.csv` containing the historical data (the data should be in two columns with date and closing value)
+- In the `df` variable change `AirPassengers.csv` with your path of the data 
+- In `df_train = df[['Month','#Passengers']]` and `df_train = df_train.rename(columns={'Month':'ds','#Passengers':'y'})` swap "month" and "#passengers" with your two columns names
+- run `model.py` 
+- input `streamlit run model.py` in the terminal to start the localhost 
