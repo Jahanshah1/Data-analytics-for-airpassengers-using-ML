@@ -55,3 +55,9 @@ You can directly change the `.csv` from here
 - In `df_train = df[['Month','#Passengers']]` and `df_train = df_train.rename(columns={'Month':'ds','#Passengers':'y'})` swap "month" and "#passengers" with your two columns names
 - run `model.py` 
 - input `streamlit run model.py` in the terminal to start the localhost 
+
+## Future Plans 
+- Deploy a full fletched web app with a friendly UI
+- Integrate more ML models for prediction in different time frames 
+- integrate comparision analysis 
+- add more editable parameters 
