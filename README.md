@@ -26,3 +26,17 @@ The main graph where you can view the plotted value of the prediction
 ### Forecasting attributes 
 <img width="786" alt="Screenshot 2022-07-03 at 8 11 36 PM" src="https://user-images.githubusercontent.com/92823408/177051675-5546adf3-3a24-499d-8a37-3aa607988739.png">
 some more components to help users understant the trend better 
+
+## Tech stack used 
+- Python 
+- Streamlit 
+- FBProphet 
+- Pandas 
+
+## Running/testing the model 
+The model is still in beta and training but it can still be aaccessed locally **A full fletched web app with multiple models and graphs will be made public soon!**
+To test the model locally :
+1. download this github repo
+2. install all the dependencies from `requirements.txt`
+3. run `model.py`
+4. In terminal run `streamlit run model.py`
