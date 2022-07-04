@@ -34,7 +34,7 @@ some more components to help users understant the trend better
 - Pandas 
 
 ## Running/testing the model 
-The model is still in beta and training but it can still be aaccessed locally **A full fletched web app with multiple models and graphs will be made public soon!**
+The model is still in beta and training but it can still be accessed locally **A full fletched web app with multiple models and graphs will be made public soon!**
 To test the model locally :
 1. download this github repo
 2. install all the dependencies from `requirements.txt`
